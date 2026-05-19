@@ -3,7 +3,7 @@ name: Daily Paper Summary and Email
 on:
   schedule:
     # 毎日UTC時間の22:00（日本時間の翌朝07:00）に実行
-    - cron: '0 22 * * *'
+    - cron: '0 21 * * *'
   workflow_dispatch:
     # 手動実行用トリガー
 
