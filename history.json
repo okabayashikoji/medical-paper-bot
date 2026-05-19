@@ -1,3 +1,24 @@
 {
-  "reported_pmids": {}
+  "reported_pmids": {
+    "41670573": {
+      "title": "Single-Pill Low-Dose Triple Combination Therapy vs Standard-Dose Monotherapy in Patients With Mild-to-Moderate Hypertension.",
+      "reported_at": "2026-05-19T14:27:02.588525"
+    },
+    "41563174": {
+      "title": "Natriuretic Peptide Receptor-1 Agonist for Resistant Hypertension: A Randomized Phase 2 Trial.",
+      "reported_at": "2026-05-19T14:27:02.588525"
+    },
+    "41949524": {
+      "title": "Blood Pressure Trajectories and Cardiovascular Outcomes in Older Patients: Insights From the STEP Trial.",
+      "reported_at": "2026-05-19T14:27:02.588525"
+    },
+    "41949512": {
+      "title": "Efficacy of Tonlamarsen in Patients With Uncontrolled Hypertension: The KARDINAL Phase 2 Randomized Clinical Trial.",
+      "reported_at": "2026-05-19T14:27:02.588525"
+    },
+    "41920135": {
+      "title": "Achieving Intensive Blood Pressure Control in High-Risk Patients: Implementation Insights From the ESPRIT Trial.",
+      "reported_at": "2026-05-19T14:27:02.588525"
+    }
+  }
 }
