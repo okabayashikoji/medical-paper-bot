@@ -27,30 +27,39 @@ exclude_types:
 clinical_relevance:
   high_value:
   - overall survival
+  - disease-free survival
+  - recurrence-free survival
   - progression-free survival
-  - recurrence
-  - complications
-  - mortality
   - quality of life
-  - adverse events
-  - response rate
-  - remission
-  - hospitalization
+  - postoperative mortality
+  - morbidity
+  - readmission rate
+  - anastomotic leakage
+  - surgical site infection
   practical:
-  - treatment guidelines
-  - clinical trials
-  - real-world data
-  - patient management
+  - clinical practice guidelines
+  - treatment algorithm
+  - surgical technique
+  - patient selection
+  - preoperative optimization
+  - multidisciplinary team
   - risk stratification
-  - decision making
-  - personalized medicine
-  - cost-effectiveness
+  - shared decision-making
   japan_relevant:
   - japanese
   - asian
   - japan
   - east asian
-basic_science_exclude: []
+basic_science_exclude:
+- in vitro
+- mouse model
+- rat model
+- cell line
+- ex vivo
+- murine
+- knockout mice
+- animal model
+- zebrafish
 ai:
   model_chain:
   - gemini-2.5-flash
@@ -65,126 +74,118 @@ output:
 history:
   file: history.json
   retention_days: 180
-specialty_name: 消化器内科、消化器外科、腫瘍内科、大腸外科
+specialty_name: 消化器外科
 specialties:
   primary:
-  - colorectal cancer
-  - inflammatory bowel disease
   - gastric cancer
+  - colorectal cancer
   - pancreatic cancer
   - hepatocellular carcinoma
   - esophageal cancer
-  - gastrointestinal bleeding
+  - minimally invasive surgery
   secondary:
-  - colonoscopy
-  - endoscopy
-  - surgical resection
-  - chemotherapy
-  - immunotherapy
-  - targeted therapy
-  - crohn's disease
-  - ulcerative colitis
-  - irritable bowel syndrome
-  - diverticulitis
   - appendicitis
-  - peritonitis
+  - cholecystitis
+  - hernia repair
+  - diverticulitis
+  - gastroesophageal reflux disease
+  - acute pancreatitis
+  - liver metastasis
+  - peritoneal metastasis
+  - surgical complications
+  - enhanced recovery after surgery
+  - robotic surgery
+  - anastomotic leakage
 journals:
   tier1:
-  - N Engl J Med
+  - Ann Surg
+  - JAMA Surg
   - Lancet
-  - JAMA
-  - Gastroenterology
-  - Gut
-  tier2:
-  - Clin Gastroenterol Hepatol
-  - Am J Gastroenterol
-  - Endoscopy
-  - Dis Colon Rectum
+  - N Engl J Med
   - Br J Surg
-  tier3:
-  - World J Gastroenterol
-  - Dig Dis Sci
-  - J Crohns Colitis
+  tier2:
+  - Surgery
+  - J Am Coll Surg
   - Surg Endosc
-  - Ann Surg Oncol
+  - HPB
+  - Am J Surg
+  tier3:
+  - Dig Surg
   - J Gastrointest Surg
+  - Surg Today
+  - Ann Surg Oncol
+  - Obes Surg
+  - J Hepatobiliary Pancreat Sci
   - Colorectal Dis
-  - BMC Gastroenterol
+  - Gastric Cancer
 daily_themes:
   Monday:
+    specialties:
+    - gastric cancer
+    - gastrectomy
+    - d2 lymphadenectomy
+    - neoadjuvant chemotherapy for gastric cancer
+    - adjuvant chemotherapy for gastric cancer
+    journals:
+    - Gastric Cancer
+    - Ann Surg
+  Tuesday:
     specialties:
     - colorectal cancer
     - colon cancer
     - rectal cancer
-    - colon carcinoma
-    - rectal carcinoma
+    - colectomy
+    - low anterior resection
     journals:
-    - Dis Colon Rectum
     - Colorectal Dis
-    - Ann Surg Oncol
-  Tuesday:
-    specialties:
-    - surgical resection
-    - laparoscopic surgery
-    - robotic surgery
-    - minimally invasive surgery
-    - open surgery
-    journals:
-    - Br J Surg
-    - Ann Surg
-    - Surg Endosc
+    - J Am Coll Surg
   Wednesday:
     specialties:
-    - diagnosis
-    - diagnostic imaging
-    - biomarkers
-    - pathology
-    - screening
+    - pancreatic cancer
+    - hepatocellular carcinoma
+    - cholangiocarcinoma
+    - whipple procedure
+    - liver resection
     journals:
-    - Gastroenterology
-    - Gut
-    - Clin Gastroenterol Hepatol
+    - HPB
+    - J Hepatobiliary Pancreat Sci
   Thursday:
     specialties:
-    - diverticulitis
-    - irritable bowel syndrome
-    - colonic polyps
-    - hemorrhoids
-    - anal fistula
+    - minimally invasive surgery
+    - laparoscopic surgery
+    - robotic surgery
+    - laparoscopic colectomy
+    - robotic gastrectomy
     journals:
-    - Am J Gastroenterol
-    - Dis Colon Rectum
-    - World J Gastroenterol
+    - Surg Endosc
+    - JAMA Surg
   Friday:
     specialties:
-    - inflammatory bowel disease
-    - crohn's disease
-    - ulcerative colitis
-    - ibd treatment
-    - biologics
+    - inflammatory bowel disease surgery
+    - crohn's disease surgery
+    - ulcerative colitis surgery
+    - diverticulitis surgery
+    - appendectomy
     journals:
-    - J Crohns Colitis
-    - Gastroenterology
-    - Gut
+    - Br J Surg
+    - Surgery
   Saturday:
     specialties:
-    - gastrointestinal bleeding
-    - acute abdomen
-    - bowel obstruction
-    - perforation
-    - emergency endoscopy
+    - bariatric surgery
+    - metabolic surgery
+    - gastric bypass
+    - sleeve gastrectomy
+    - weight loss surgery
     journals:
-    - N Engl J Med
-    - Lancet
-    - Am J Gastroenterol
+    - Obes Surg
+    - Ann Surg
   Sunday:
     specialties:
-    - endoscopy
-    - colonoscopy
-    - gastroscopy
-    - endoscopic ultrasound
-    - therapeutic endoscopy
+    - anastomotic leakage
+    - surgical site infection
+    - postoperative complications
+    - enhanced recovery after surgery
+    - eras protocol
     journals:
-    - Endoscopy
-    - Gastrointest Endosc
-    - Surg Endosc
+    - World J Surg
+    - J Am Coll Surg
