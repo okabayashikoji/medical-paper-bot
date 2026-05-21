@@ -29,37 +29,28 @@ clinical_relevance:
   - overall survival
   - disease-free survival
   - recurrence-free survival
-  - progression-free survival
+  - postoperative complications
+  - mortality rate
   - quality of life
-  - postoperative mortality
-  - morbidity
   - readmission rate
-  - anastomotic leakage
   - surgical site infection
+  - anastomotic leakage
+  - hospital stay
   practical:
-  - clinical practice guidelines
+  - clinical guideline
   - treatment algorithm
   - surgical technique
   - patient selection
-  - preoperative optimization
-  - multidisciplinary team
+  - decision making
+  - cost effectiveness
   - risk stratification
-  - shared decision-making
+  - preoperative optimization
   japan_relevant:
   - japanese
   - asian
   - japan
   - east asian
-basic_science_exclude:
-- in vitro
-- mouse model
-- rat model
-- cell line
-- ex vivo
-- murine
-- knockout mice
-- animal model
-- zebrafish
+basic_science_exclude: []
 ai:
   model_chain:
   - gemini-2.5-flash
@@ -84,108 +75,105 @@ specialties:
   - esophageal cancer
   - minimally invasive surgery
   secondary:
-  - appendicitis
-  - cholecystitis
-  - hernia repair
-  - diverticulitis
-  - gastroesophageal reflux disease
-  - acute pancreatitis
+  - inflammatory bowel disease
+  - gastrointestinal stromal tumor
+  - neuroendocrine tumor
   - liver metastasis
-  - peritoneal metastasis
-  - surgical complications
-  - enhanced recovery after surgery
+  - peritoneal carcinomatosis
   - robotic surgery
-  - anastomotic leakage
+  - laparoscopic surgery
+  - enhanced recovery after surgery
+  - surgical oncology
+  - digestive tract surgery
 journals:
   tier1:
-  - Ann Surg
-  - JAMA Surg
-  - Lancet
-  - N Engl J Med
-  - Br J Surg
+  - n engl j med
+  - lancet
+  - jama
+  - ann surg
+  - br j surg
   tier2:
-  - Surgery
-  - J Am Coll Surg
-  - Surg Endosc
-  - HPB
-  - Am J Surg
+  - ann surg oncol
+  - surgery
+  - j am coll surg
+  - dis colon rectum
+  - j gastrointest surg
   tier3:
-  - Dig Surg
-  - J Gastrointest Surg
-  - Surg Today
-  - Ann Surg Oncol
-  - Obes Surg
-  - J Hepatobiliary Pancreat Sci
-  - Colorectal Dis
-  - Gastric Cancer
+  - world j surg
+  - surg endosc
+  - int j colorectal dis
+  - j hepato bil pancreat sci
+  - langenbecks arch surg
+  - dig surg
+  - eur j surg oncol
 daily_themes:
   Monday:
-    specialties:
-    - gastric cancer
-    - gastrectomy
-    - d2 lymphadenectomy
-    - neoadjuvant chemotherapy for gastric cancer
-    - adjuvant chemotherapy for gastric cancer
-    journals:
-    - Gastric Cancer
-    - Ann Surg
-  Tuesday:
     specialties:
     - colorectal cancer
     - colon cancer
     - rectal cancer
-    - colectomy
-    - low anterior resection
+    - colorectal carcinoma
+    - colon carcinoma
     journals:
-    - Colorectal Dis
-    - J Am Coll Surg
+    - dis colon rectum
+    - int j colorectal dis
+  Tuesday:
+    specialties:
+    - small bowel tumor
+    - small intestine cancer
+    - small bowel obstruction
+    - crohn's disease small bowel
+    - small bowel surgery
+    journals:
+    - j gastrointest surg
+    - dig surg
   Wednesday:
     specialties:
-    - pancreatic cancer
-    - hepatocellular carcinoma
-    - cholangiocarcinoma
-    - whipple procedure
-    - liver resection
+    - artificial intelligence surgery
+    - machine learning surgery
+    - deep learning surgery
+    - ai in surgical oncology
+    - surgical robotics ai
     journals:
-    - HPB
-    - J Hepatobiliary Pancreat Sci
+    - surg endosc
+    - ann surg
   Thursday:
     specialties:
-    - minimally invasive surgery
-    - laparoscopic surgery
-    - robotic surgery
-    - laparoscopic colectomy
-    - robotic gastrectomy
+    - diverticulitis surgery
+    - colonic diverticulitis
+    - colonic polyps
+    - colonoscopy surveillance
+    - colorectal surgery
     journals:
-    - Surg Endosc
-    - JAMA Surg
+    - dis colon rectum
+    - int j colorectal dis
   Friday:
     specialties:
     - inflammatory bowel disease surgery
     - crohn's disease surgery
     - ulcerative colitis surgery
-    - diverticulitis surgery
-    - appendectomy
+    - ibd surgical management
+    - pouchitis
     journals:
-    - Br J Surg
-    - Surgery
+    - dis colon rectum
+    - j gastrointest surg
   Saturday:
     specialties:
-    - bariatric surgery
-    - metabolic surgery
-    - gastric bypass
-    - sleeve gastrectomy
-    - weight loss surgery
+    - emergency abdominal surgery
+    - acute abdomen surgery
+    - bowel perforation
+    - gastrointestinal bleeding surgery
+    - surgical emergency
     journals:
-    - Obes Surg
-    - Ann Surg
+    - ann surg
+    - world j surg
   Sunday:
     specialties:
-    - anastomotic leakage
-    - surgical site infection
-    - postoperative complications
-    - enhanced recovery after surgery
-    - eras protocol
+    - endoscopic surgery
+    - laparoscopic endoscopy
+    - endoscopic submucosal dissection
+    - endoscopic mucosal resection
+    - flexible endoscopy
     journals:
-    - World J Surg
-    - J Am Coll Surg
+    - surg endosc
+    - gastrointest endosc
