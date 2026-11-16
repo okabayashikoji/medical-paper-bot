@@ -1,45 +1,5 @@
 {
   "reported_pmids": {
-    "41670573": {
-      "title": "Single-Pill Low-Dose Triple Combination Therapy vs Standard-Dose Monotherapy in Patients With Mild-to-Moderate Hypertension.",
-      "reported_at": "2026-05-19T14:27:02.588525"
-    },
-    "41563174": {
-      "title": "Natriuretic Peptide Receptor-1 Agonist for Resistant Hypertension: A Randomized Phase 2 Trial.",
-      "reported_at": "2026-05-19T14:27:02.588525"
-    },
-    "41949524": {
-      "title": "Blood Pressure Trajectories and Cardiovascular Outcomes in Older Patients: Insights From the STEP Trial.",
-      "reported_at": "2026-05-19T14:27:02.588525"
-    },
-    "41949512": {
-      "title": "Efficacy of Tonlamarsen in Patients With Uncontrolled Hypertension: The KARDINAL Phase 2 Randomized Clinical Trial.",
-      "reported_at": "2026-05-19T14:27:02.588525"
-    },
-    "41920135": {
-      "title": "Achieving Intensive Blood Pressure Control in High-Risk Patients: Implementation Insights From the ESPRIT Trial.",
-      "reported_at": "2026-05-19T14:27:02.588525"
-    },
-    "42151463": {
-      "title": "SAGES colorectal and metabolic bariatric surgery committee joint task force call to action for synchronized severe obesity and colorectal cancer management.",
-      "reported_at": "2026-05-19T22:04:50.922536"
-    },
-    "42141184": {
-      "title": "Short-term outcomes of bridge-to-surgery using self-expanding metallic stents in robotic colorectal surgery for obstructive left-sided colorectal cancer: a consecutive cohort study.",
-      "reported_at": "2026-05-19T22:04:50.922536"
-    },
-    "42154247": {
-      "title": "Short-term outcomes of self-expanding metallic stents and transanal colorectal tubes as a bridge to surgery for obstructive colon cancer: a nationwide retrospective study.",
-      "reported_at": "2026-05-19T22:04:50.922536"
-    },
-    "42151464": {
-      "title": "Nomogram for preoperative prediction of lymph node metastasis in patients with early submucosal right-sided colon cancer: a dual-center retrospective cohort study.",
-      "reported_at": "2026-05-19T22:04:50.922536"
-    },
-    "42140309": {
-      "title": "Interventions Targeting Quality of Life for Colorectal Cancer Patients with Fecal Ostomy: A Systematic Review.",
-      "reported_at": "2026-05-19T22:04:50.922536"
-    },
     "42141338": {
       "title": "Fluorescence-Guided Remnant-Sparing Laparoscopic Distal Pancreatectomy for Metachronous Pancreatic Cancer Following Whipple Procedure.",
       "reported_at": "2026-05-20T22:20:09.730567"
@@ -1095,6 +1055,26 @@
     "43017873": {
       "title": "C-Reactive Protein to Albumin Ratio as a Rule Out Predictor For Organ/Space Infections After Ileocolic Resection in Crohn's Disease.",
       "reported_at": "2026-11-13T01:32:41.476813"
+    },
+    "42925880": {
+      "title": "14-day versus 28-day trifluridine-tipiracil plus bevacizumab for refractory metastatic colorectal cancer (PRABITAS): a pragmatic, multicentre, open-label, randomised, phase 3, non-inferiority trial in Japan.",
+      "reported_at": "2026-11-16T00:29:20.365477"
+    },
+    "43026201": {
+      "title": "Predicting Blood Flow in Reconstructed Intestines Based on Abdominal Aortic Calcification and Clinical Effects of Left Colic Artery Preservation in Colorectal Cancer Surgery: A Subanalysis of the HiSCO-09 Study.",
+      "reported_at": "2026-11-16T00:29:20.365477"
+    },
+    "43009710": {
+      "title": "Perioperative Circulating Tumor DNA Dynamics in Patients Undergoing Cytoreductive Surgery for Colorectal Peritoneal Metastases.",
+      "reported_at": "2026-11-16T00:29:20.365477"
+    },
+    "43004518": {
+      "title": "Adjuvant Hepatic Arterial Infusion Pump Chemotherapy Without Systemic Therapy After Repeat Local Treatment for Patients With Liver-only Recurrence of Colorectal Cancer.",
+      "reported_at": "2026-11-16T00:29:20.365477"
+    },
+    "43017865": {
+      "title": "Comparative Outcomes of CREATE Versus Conventional Double-Stapling Technique for Ultralow Rectal Cancer: A Multicenter Propensity-Matched Analysis.",
+      "reported_at": "2026-11-16T00:29:20.365477"
     }
   }
 }
