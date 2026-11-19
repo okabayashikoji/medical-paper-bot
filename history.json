@@ -1,25 +1,5 @@
 {
   "reported_pmids": {
-    "42141338": {
-      "title": "Fluorescence-Guided Remnant-Sparing Laparoscopic Distal Pancreatectomy for Metachronous Pancreatic Cancer Following Whipple Procedure.",
-      "reported_at": "2026-05-20T22:20:09.730567"
-    },
-    "42130324": {
-      "title": "Utility of the Iwate Difficulty Scoring System for the Stratification of Laparoscopic Right Hepatectomies: An International Multicenter Study.",
-      "reported_at": "2026-05-20T22:20:09.730567"
-    },
-    "42144494": {
-      "title": "Combined Association of Time to Treatment, Guideline Concordance, and Neighborhood Vulnerability with Localized Colon Cancer, Non-small-cell Lung Cancer, and Pancreatic Cancer Survival.",
-      "reported_at": "2026-05-20T22:20:09.730567"
-    },
-    "42143654": {
-      "title": "Laparoscopic Anterior-Approach Right Posterior Sectionectomy for Huge Hepatocellular Carcinoma: Technique and Short-Term Outcomes.",
-      "reported_at": "2026-05-20T22:20:09.730567"
-    },
-    "42156620": {
-      "title": "ICG-Enhanced Visualization of Venous Congestion for Laparoscopic Anatomical Liver Resection of Segment 8-Ventral.",
-      "reported_at": "2026-05-20T22:20:09.730567"
-    },
     "42168610": {
       "title": "Prognostic comparison of endoscopic submucosal dissection versus surgery for undifferentiated early gastric cancer: a Taiwan multicenter study.",
       "reported_at": "2026-05-24T21:44:28.281873"
@@ -1075,6 +1055,14 @@
     "43017865": {
       "title": "Comparative Outcomes of CREATE Versus Conventional Double-Stapling Technique for Ultralow Rectal Cancer: A Multicenter Propensity-Matched Analysis.",
       "reported_at": "2026-11-16T00:29:20.365477"
+    },
+    "43049095": {
+      "title": "Preoperative Advanced Therapy Use and Anastomotic Complications After Elective Surgery for Crohn's Disease.",
+      "reported_at": "2026-11-19T02:06:20.489201"
+    },
+    "43018938": {
+      "title": "The Long Way to the Operating Room: In-Hospital Operative Delay and Outcomes in Colorectal Surgery.",
+      "reported_at": "2026-11-19T02:06:20.489201"
     }
   }
 }
